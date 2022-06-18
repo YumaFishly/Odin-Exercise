@@ -1,0 +1,95 @@
+/* Placeholder for e.g. imports? I guess...*/
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+/* This is mainly for the first part */
+
+footer,
+header {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  padding: 0 250px;
+  display: flex;
+}
+footer {
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.headerLogo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.linklist {
+  margin-left: auto;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+li {
+  list-style: none;
+}
+
+.secondaryText {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+/* This is mainly for the second part */
+
+.hero {
+  background-color: #1F2937;
+  padding: 50px 250px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.heroText {
+  max-width: 50%;
+  height: auto;
+}
+
+.heroMainText {
+  font-size: 48px;
+  font-weight: 800;
+  color: #F9FAF8;
+  margin: 20px 0;
+}
+
+.heroButton {
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: #e5e7eb;
+  border: none;
+  border-radius: 5px;
+  background-color: #3882f6;
+  padding: 10px 30px;
+}
+.heroButton:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: #2075fd;
+}
+
+.heroImg {
+  max-width: 50%;
+}
